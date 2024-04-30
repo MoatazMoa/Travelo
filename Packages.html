@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    
+	
+     
+   <title>Packages</title>
+    <link rel="stylesheet"href="/css/All.css">
+	
+</head>
+
+
+<body class= "MG2 dark-themeMG" id="dark-themeMG">
+    <nav class="header-navMG">
+    <div class="logoMG">
+      <a href="home.html" class="logo-linkMG"><i class="fas fa-earth-africa"></i> Travello</a>
+    </div>
+    <ul class="menuMG">
+      <li><a href="index.html" class="menu-linkMG">Home</a></li>
+      <!-- <li><a href="services.html" class="menu-linkMG">Services</a></li> -->
+      <!-- <li><a href="Packages.html" class="menu-linkMG">Packages</a></li> -->
+      <li><a href="Review.html" class="menu-linkMG">Reviews</a></li>
+      <li><a href="contact.html" class="menu-linkMG">Contact Us</a></li>
+      <li><a href="Profile.html" class="menu-linkMG">Profile</a></li>
+      <li><a href="login.html" class="menu-linkMG">Login</a></li>
+    </ul>
+<i id="theme-change-icon" class="fas fa-adjust fa-lg" onclick="changeTheme()"></i>  </nav>
+  </nav>
+<div class="intro"style="background-image:url('  ../image//front.jpg');">
+<h3>it's time to</h3>
+            <h1>TRAVEL</h1>
+			<p >Curated with care , our travel packages premise the perfect blend of adventure and relaxtion  <br>
+			 Your ticket to unforgettable memories awaits ....</p>
+			            
+</div>
+
+<div class="container">
+
+
+            <div class="slide">
+
+
+                <div class="item" style="background-image:url('  ../image//239.jpg');">
+                    <div class="content">
+                    <div class="name">Hiking Adventure in the Swiss Alps</div>
+                    <div class="des">Duration: 7 days
+		Activities: Alpine hiking trails, cable car rides, scenic train journeys, paragliding, Swiss chocolate tasting
+		Estimated Cost: $3500 per person</div>
+                   
+                    <a href=" book-form.html"><button>Book Now</button></a>
+                </div>            
+                </div>
+            
+
+            <div class="item" style="background-image:url('  ../image//Aurora.jpg');">
+                <div class="content">
+                <div class="name">Chase the Aurora</div>
+		<div class="des">Duration: 8 days
+		
+		Activities: Aurora Hunting Tours,Husky Sledding,Ice Fishing,Snowshoeing
+		Estimated Cost: $5550 per person</div>
+                <a href=" book-form.html"><button>Book Now</button></a>
+            </div>            
+            </div>
+
+        <div class="item" style="background-image:url('  ../image//img3.jpg');">
+            <div class="content">
+            <div class="name">Historical Journey through Egypt</div>
+		<div class="des">
+
+		Duration: 8 days
+		
+		Activities: Explore ancient pyramids, temples of Luxor and Karnak, Nile River cruise, visit to Abu Simbel, Egyptian Museum
+		Estimated Cost: $4999 per person</div>
+            
+           <a href=" book-form.html"><button>Book Now</button></a>
+        </div>            
+        </div>
+
+        <div class="item" style="background-image:url('  ../image//Pi.jpg');">">
+            <div class="content">
+            <div class="name">California Dreaming</div>
+		<div class="des">Duration: 14 days
+
+		Activities: Road trip along the Pacific Coast Highway, visit to Disneyland, Hollywood studio tour
+		Estimated Cost: $3999 per person</div>
+           
+            <a href=" book-form.html"><button>Book Now</button></a>
+        </div>            
+        </div>
+
+    <div class="item" style="background-image:url('  ../image//img5.jpg')">
+        <div class="content">
+        <div class="name">Japanese Cultural Experience</div>
+		<div class="des">Duration: 12 days
+		
+		Activities: Cherry blossom viewing, sushi making class, tea ceremony, visit to historic temples and shrines, shopping in bustling markets
+		Estimated Cost: $4999 per person</div>
+       
+<a href=" book-form.html"><button>Book Now</button></a>
+    </div>            
+    </div>
+
+<div class="item" style="background-image:url('  ../image//img6.jpg');">
+    <div class="content">
+    <div class="name">Caribbean Cruise and Beach Retreat</div>
+		<div class="des">Duration: 8 days
+		Destination: Bahamas, Jamaica, Cayman Islands
+		Activities: Cruise ship experience, beach relaxation, water sports, local cuisine tasting
+		Estimated Cost: $2500 per person</div>
+    
+   <a href=" book-form.html"><button>Book Now</button></a>
+</div>            
+</div>
+</div>
+</div>
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+<form class="formMGG" id ="formMG">
+    <fieldset>
+        <legend>Package Details</legend>
+
+        <label for="firstName"><i class="fas fa-user"></i>First Name:</label>
+        <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+
+        <label for="lastName"><i class="fas fa-user"></i>Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+
+        <br>
+
+        <label for="email">  <i class="fas fa-envelope"></i> Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+        <label for="tel"><i class="fas fa-phone"></i> Tel:</label>
+        <input type="tel" id="tel" name="tel" required placeholder="Enter your phone number"><br>
+    
+
+        <label for="package">  <i class="fas fa-gift"></i>Select Package:</label>
+        <select id="package" name="package" required>
+            <option value="">Select a package</option>
+            <option value="switzerland">Hiking Adventure in the Swiss Alps</option>
+            <option value="finland">Chase the Aurora</option>
+            <option value="iceland">California Dreaming</option>
+            <option value="australia">Historical Journey through Egypt</option>
+            <option value="netherlands">Japanese Cultural Experience</option>
+            <option value="ireland">Caribbean Cruise and Beach Retreat</option>
+        </select>
+
+        <label for="numPersons">Number of Persons:</label>
+        <input type="number" id="numPersons" name="numPersons" required placeholder="Enter number of persons"><br>
+
+        
+
+        <label for="creditCard"><i class="fas fa-credit-card"></i>Credit Card ID:</label>
+        <input type="text" id="creditCard" name="creditCard" required placeholder="Enter your credit card ID">
+
+        <label for="date"> <i class="fas fa-calendar-alt"></i> Date of Package:</label>
+        <input type="date" id="date" name="date" required placeholder="Select date of package">
+    <button type="submit">Submit</button>
+	</fieldset>
+	 
+</form>
+<div>
+
+<h2 class="ifyouMG">If you aren't interested in Packages choose countries:</h2>
+
+<input type="text" id="myInputMG" onkeyup="myFunction()" placeholder="Search for countries.." title="Type in a name">
+
+<ul id="myULMG">
+    <li><a href="egypt.html">Egypt</a></li>
+    <li><a href="palestine.html">Palestine</a></li>
+    <li><a href="turkey.html">Turkey</a></li>
+    <li><a href="britain.html">England</a></li>
+    <li><a href="russia.html">Russia</a></li>
+    <li><a href="italy.html">Italy</a></li>
+    <li><a href="france.html">France</a></li>
+    <li><a href="spain.html">Spain</a></li>
+    <li><a href="greece.html">Greece</a></li>
+    <li><a href="japan.html">Japan</a></li>
+    <li><a href="germany.html">Germany</a></li>
+</ul>
+</div>
+<footer class="footerMG">
+   
+      <p>&copy; 2024 Travello. All Rights Reserved.</p>
+    
+  </footer>
+
+<script src="/js/lol.js"></script>
+<script src="https://kit.fontawesome.com/577927b689.js"></script>
+</body>
+		
