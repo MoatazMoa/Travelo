@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travello</title>
+    <link rel="stylesheet" href="/css/All.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body class="MO">
+    <header class="Mo">
+        <a href="#" class="logo"><span>T</span>ravello</a>
+        <nav class="navi">
+        <a href="index.html">Home</a>
+        <a href="Packages.html">Packages</a>
+        <a href="travel.html">Countries</a>
+        <a href="Profile.html">Profile</a>
+        <a href="Review.html">Reviews</a>
+        <a class="login" href="Login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>   
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <form action="Login.html">
+            <h1>Registration</h1>
+
+
+            <div class="input-box">
+                <div class="input-field">
+                    <p><i class='bx bxs-user'></i>User Name:</p>
+                    <input type="text" id="reg-text" required placeholder="User Name">
+                </div>
+                 <div class="input-field">
+                     <p><i class='bx bxs-envelope' ></i>Email:</p>
+                    <input type="mail" id="reg-mail" required placeholder="Email">
+                 </div>
+            </div>
+                <div class="input-box">
+                    <div class="input-field">
+                        <p><i class='bx bxs-phone'></i>Phone Number:</p>
+                        <input type="text" id="reg-phone" required placeholder="User Name">
+                    </div>
+                    <div class="input-field">
+                        <p> <i class='bx bxs-lock-alt' ></i>Password:</p>
+                        <input type="password" id="reg-pass" placeholder="Complex Password">
+                    </div>
+                </div>    
+                <button class="btn7" onclick="toggle()" type="submit">Register</button>
+        </form>
+
+    </div>
+    <footer class="Ms">
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Mostafa Borham</span></p>
+        </div>
+    </footer>
+    
+</body>
+<script src="/js/register.js"></script>
+<script src="https://kit.fontawesome.com/577927b689.js"></script>
+</html>
