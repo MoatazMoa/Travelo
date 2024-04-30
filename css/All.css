@@ -583,11 +583,11 @@
   .MTA {
    margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #adb6c6, #4f6996, #2d505d, #406ba0, #6c7b9e, #1a58d3);
+background-color:  #4f6996;
     height: 900vh;
 }
 
-
+.MTA .about { color: #996515;}
 .MTA .egypt-header {
     background-color: #1f2126; /* Dark blue background color */
     color: #432020; /* Text color */
