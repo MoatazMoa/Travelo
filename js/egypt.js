@@ -57,3 +57,25 @@ function myFunction() {
     }
   }
 }
+
+let originalBackgroundColor = getComputedStyle(document.body).backgroundColor;
+let isDarkMode = false;
+
+document.getElementById('change-background-button').addEventListener('click', function() {
+    if (isDarkMode) {
+        document.body.style.backgroundColor = originalBackgroundColor;
+        isDarkMode = false;
+    } else {
+        document.body.style.backgroundColor = 'black';
+        isDarkMode = true;
+    }
+    localStorage.setItem('isDarkMode', isDarkMode);
+});
+
+if (localStorage.getItem('isDarkMode') === 'true') {
+    document.body.style.backgroundColor = 'black';
+    isDarkMode = true;
+} else {
+    document.body.style.backgroundColor = originalBackgroundColor;
+    isDarkMode = false;
+}
