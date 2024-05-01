@@ -7470,7 +7470,7 @@ html {
 
 
 
-.maryam :root {
+:root .maryam{
     --primary-light: #a0b3e5;
     --orange-color: #f35405;
     --text-light: #cbd5e1;
