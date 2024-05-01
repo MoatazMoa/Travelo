@@ -587,7 +587,7 @@ background-color:  #4f6996;
     height: 900vh;
 }
 
-.MTA .about { color: #996515;}
+.MTA p.about { color: #996515;}
 .MTA .egypt-header {
     background-color: #1f2126; /* Dark blue background color */
     color: #432020; /* Text color */
