@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Check if the body has the "dark-theme" class and change the image accordingly
     if (document.body.classList.contains("dark-theme")) {
-      icon.src = "../image/OIP (9).jpeg";
+      icon.src = "image/OIP (9).jpeg";
     } else {
-      icon.src = "../image/OIP (8).jpeg";
+      icon.src = "image/OIP (8).jpeg";
     }
   };
 });
