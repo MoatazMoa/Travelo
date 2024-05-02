@@ -583,7 +583,7 @@
   .MTA {
    margin: 0;
     font-family: Arial, sans-serif;
-background-color:  #4f6996;
+background-color:#85a0d0;
     height: 900vh;
 }
 
@@ -795,6 +795,7 @@ background-color:  #4f6996;
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    color: #996515;
 }
 
 .MTA table th, table td {
