@@ -1055,14 +1055,14 @@ button[type="submit"]:hover {
     color:rgb(5, 5, 141);
 }
 .ME1 #span{
-    display:flex;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-transform: uppercase;
-    font-size: 25px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 10px 0 10px 0;
     color: rgb(23, 23, 121);
-
 }
+
 .ME1 .more-details{
     display:inline-block;
     margin-left: 60px;
